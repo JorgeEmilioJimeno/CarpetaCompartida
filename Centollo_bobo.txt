@@ -1,5 +1,9 @@
 bollo el centollo
 
 bolero
+<<<<<<< HEAD
 
 Messi >>>>>>> CR7
+=======
+bolero bolero
+>>>>>>> d544b749ba258f138ecf738e8d758ac5f2914224
