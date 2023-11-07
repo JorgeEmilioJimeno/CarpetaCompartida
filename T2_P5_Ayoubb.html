@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>¿Qué sabes de Baloncesto?</title>
+</head>
+<body style="display: flex; background-color: orange;" >
+    <h1>¿Qué sabes de Baloncesto?</h1>
+
+    <form action="datos.php" method="post">
+    <!--  4 -->
+        <p>Pregunta 1: Escribe cual es tu equipo de baloncesto preferido a nivel mundial: <input type="text" name="palabra"></p>
+
+    <!-- 5 -->
+        <p>Pregunta 2: Que jugador/es te gusta mas ver:
+            <input type="checkbox" name="respuesta1" value="opcion1"> Lebron James
+            <input type="checkbox" name="respuesta2" value="opcion2"> Stephen Curry
+            <input type="checkbox" name="respuesta3" value="opcion3"> Sergio Llul
+            <input type="checkbox" name="respuesta4" value="opcion4"> Laprovittola
+        </p>
+
+    <!-- 6 -->
+        <p>Pregunta 3: Elige que competicion te gusta mas:
+            <input type="radio" name="respuesta_unica" value="opcionA"> Liga ACB
+            <input type="radio" name="respuesta_unica" value="opcionB"> NBA
+            <input type="radio" name="respuesta_unica" value="opcionC"> Euroliga
+        </p>
+
+    <!-- 7 -->
+        <p>Pregunta 4: Que marca de equipaciones te mola mas?:
+            <select name="opciones_desplegable">
+                <option value="opcionX">Adidas</option>
+                <option value="opcionY">Nike</option>
+                <option value="opcionZ">Jordan</option>
+                <option value="opcionW">Puma</option>
+            </select>
+        </p>
+
+    <!-- 8 -->
+        <p>Pregunta 5: Elige el color de zapatillas que te mole: <input type="color" name="color"></p>
+
+    <!-- 9 -->
+        <p>Pregunta 6: ¿Recuerdas la fecha en la que Kobe Bryant gano su primer anillo de la NBA?: <input type="date" name="fecha"></p>
+
+    <!-- 10 -->
+        <p>Pregunta 7: Inserta una foto relacionada con el mundo del Basket que te guste: <input type="file" name="imagen"></p>
+
+    <!-- 11 -->
+        <p>Pregunta 8: Valora a través de una barra móvil, que te ha parecido mi pequeño test sobre Baloncesto: <input type="range" name="valoracion" min="0" max="10" step="1"></p>
+        
+    <!-- 12 -->
+        <p>Pregunta 9: Escríbeme aqui los puntos que crees que tengo que mejorar: <input type="text" name="patron" pattern="[A-Z]{3}-[0-9]{3}" title="Formato válido: ABC-123"></p>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar formulario">
+    </form>
+
+    <!-- Inserta un iframe con una página web externa -->
+    <iframe width="560" height="600" src="https://www.marca.com/baloncesto.html" frameborder="30"></iframe>
+
+</body>
+</html>
