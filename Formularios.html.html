@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>¿Qué sabes de fútbol?</title>
+</head>
+<body>
+  <h1>¿Cuales son tus gustos sobre fútbol?</h1>
+
+  <form action="datos.php" method="POST">
+
+    <label for="equipo">Pregunta 1: ¿Cuál es tu equipo de fútbol favorito?</label><br>
+    <input type="text" id="equipo" name="equipo"><br><br>
+    
+
+    <label for="posicion">Pregunta 2: ¿Qué posición te gusta jugar en el fútbol?</label><br>
+    <input type="checkbox" id="portero" name="posicion" value="portero">
+    <label for="portero">Portero</label><br>
+    <input type="checkbox" id="defensa" name="posicion" value="defensa">
+    <label for="defensa">Defensa</label><br>
+    <input type="checkbox" id="centrocampista" name="posicion" value="centrocampista">
+    <label for="centrocampista">Centrocampista</label><br>
+    <input type="checkbox" id="delantero" name="posicion" value="delantero">
+    <label for="delantero">Delantero</label><br><br>
+    
+
+    <label for="jugador">Pregunta 3: ¿Quién es tu jugador favorito?</label><br>
+    <input type="radio" id="messi" name="jugador" value="Messi">
+    <label for="messi">Lionel Messi</label><br>
+    <input type="radio" id="ronaldo" name="jugador" value="Ronaldo">
+    <label for="ronaldo">Cristiano Ronaldo</label><br>
+    <input type="radio" id="neymar" name="jugador" value="Neymar">
+    <label for="neymar">Neymar Jr.</label><br>
+    <input type="radio" id="salah" name="jugador" value="Salah">
+    <label for="salah">Mohamed Salah</label><br><br>
+    
+
+    <label for="liga">Pregunta 4: ¿Cuál es tu liga de fútbol favorita?</label><br>
+    <select id="liga" name="liga">
+      <option value="La Liga">La Liga (España)</option>
+      <option value="Premier League">Premier League (Inglaterra)</option>
+      <option value="Serie A">Serie A (Italia)</option>
+      <option value="Bundesliga">Bundesliga (Alemania)</option>
+      <option value="Ligue 1">Ligue 1 (Francia)</option>
+    </select><br><br>
+    
+    <label for="color">Pregunta 5: ¿Cuál es el color de la camiseta de tu equipo favorito?</label><br>
+    <input type="color" id="color" name="color"><br><br>
+    
+
+    <label for="titulo">Pregunta 6: ¿En qué año ganó tu equipo favorito su último título?</label><br>
+    <input type="date" id="titulo" name="titulo"><br><br>
+
+    
+    <label for="jugador_img">Pregunta 7: ¿Puedes subir una imagen de tu jugador favorito?</label><br>
+    <input type="file" id="jugador_img" name="jugador_img"><br><br>
+
+    
+    <label for="emocion">Pregunta 8: Del 1 al 10, ¿qué tan emocionado estás por la próxima temporada de fútbol?</label><br>
+    <input type="range" id="emocion" name="emocion" min="1" max="10"><br><br>
+    
+    
+    <label for="equipo_validacion">Pregunta 9: Escribe el nombre de tu equipo favorito comenzando con una letra mayúscula.</label><br  
+
+    <h1>¿Qué tan bueno eres en algo?</h1>
+    
+    <label for="respuesta">Ingresa tu nivel (malo, normal, bueno, muy bueno):</label>
+    <input type="text" id="respuesta" name="respuesta"><br><br>
+    <input type="reset" value="Limpiar formulario">
+    <button>Enviar</button> <br>
